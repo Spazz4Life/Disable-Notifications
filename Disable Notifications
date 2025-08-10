@@ -1,0 +1,6 @@
+local StarterGui = game:GetService("StarterGui")
+pcall(function()
+    StarterGui:SetCore("SendNotification", function() 
+        print("Loaded)
+    end)
+end)
